@@ -1,0 +1,28 @@
+Train: 1912  Val: 478  Device: cpu
+Epoch  1/12  train loss 1.236 acc 0.702 | val loss 0.542 acc 0.854  (122s)
+Epoch  2/12  train loss 0.421 acc 0.869 | val loss 0.515 acc 0.851  (237s)
+Epoch  3/12  train loss 0.355 acc 0.900 | val loss 0.338 acc 0.906  (347s)
+Epoch  4/12  train loss 0.216 acc 0.921 | val loss 0.297 acc 0.914  (457s)
+Epoch  5/12  train loss 0.153 acc 0.948 | val loss 0.239 acc 0.935  (567s)
+Epoch  6/12  train loss 0.104 acc 0.965 | val loss 0.227 acc 0.937  (673s)
+Epoch  7/12  train loss 0.080 acc 0.971 | val loss 0.202 acc 0.946  (780s)
+Epoch  8/12  train loss 0.062 acc 0.980 | val loss 0.214 acc 0.944  (883s)
+Epoch  9/12  train loss 0.055 acc 0.980 | val loss 0.210 acc 0.939  (986s)
+Epoch 10/12  train loss 0.050 acc 0.984 | val loss 0.195 acc 0.944  (1093s)
+Epoch 11/12  train loss 0.044 acc 0.984 | val loss 0.186 acc 0.946  (1196s)
+Epoch 12/12  train loss 0.043 acc 0.985 | val loss 0.191 acc 0.941  (1298s)
+Total training time: 1298s
+
+Best model on VAL: accuracy 0.9456, macro-F1 0.9461
+              precision    recall  f1-score   support
+
+   cardboard      0.963     0.975     0.969        81
+       glass      0.913     0.940     0.926       100
+       metal      0.929     0.963     0.946        82
+       paper      0.958     0.950     0.954       119
+     plastic      0.967     0.906     0.935        96
+
+    accuracy                          0.946       478
+   macro avg      0.946     0.947     0.946       478
+weighted avg      0.946     0.946     0.946       478
+
